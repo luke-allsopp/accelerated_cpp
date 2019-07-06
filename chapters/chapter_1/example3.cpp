@@ -14,9 +14,20 @@ int main()
 	const std::string greeting = "Hello, " + name + " ya fuck";
 	
 
-	//TBD
-		
-		
+	//build the second and 4th lines
+	const std::string spaces(greeting.size(),' ');
+	const std::string second = "*" + spaces + "*";
+
+	//build the first and firth lines
+	const std::string first(second.size(),' ');
+
+	//write it all out
+	std::cout << std::endl;
+	std::cout << first << std::endl;
+	std::cout << second << std::endl;
+	std::cout << "*" << greeting << "*" << std::endl;
+	std::cout << second << std::endl;
+	std::cout << first << std::endl;
 
 	return 0; 
 	
