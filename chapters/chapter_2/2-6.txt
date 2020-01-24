@@ -1,0 +1,1 @@
+increments i 1 each loop and prints each step to shell. 
